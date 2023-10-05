@@ -20,9 +20,6 @@ import static android.opengl.GLES20.GL_NEAREST;
 import static android.opengl.GLES20.GL_TEXTURE_2D;
 import static android.opengl.GLES20.glClearColor;
 
-/**
- * Created by sudamasayuki on 2018/03/14.
- */
 
 public class GlPreviewRenderer extends GlFrameBufferObjectRenderer implements SurfaceTexture.OnFrameAvailableListener {
 
@@ -52,7 +49,7 @@ public class GlPreviewRenderer extends GlFrameBufferObjectRenderer implements Su
     private float aspectRatio = 1f;
     private float scaleRatio = 1f;
     private float drawScale = 1f;
-    private float gestureScale = 1f;
+    private float gestureScale = 0.5f;
 
     private Resolution cameraResolution;
 

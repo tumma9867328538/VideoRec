@@ -54,10 +54,11 @@ public class VideoPlayerActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-       if (videoView.isPlaying()){
-           Toast.makeText(this, "video is playing..", Toast.LENGTH_SHORT).show();
-       }else {
-           onBackPressed();
-       }
+        finish();
+//       if (videoView.isPlaying()){
+//           Toast.makeText(this, "video is playing..", Toast.LENGTH_SHORT).show();
+//       }else {
+//           onBackPressed();
+//       }
     }
 }

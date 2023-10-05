@@ -8,10 +8,6 @@ import android.opengl.EGLSurface;
 import android.os.Build;
 import android.util.Log;
 
-/**
- * Created by sudamasayuki on 2018/03/14.
- */
-
 public class EGLBase {
     private static final boolean DEBUG = false;    // TODO set false on release
     private static final String TAG = "EGLBase";
